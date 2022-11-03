@@ -22,13 +22,13 @@
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Description</a>
+                            <a href="#info" class="menu__link">Description</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Characteristics</a>
+                            <a href="#characteristisc" class="menu__link">Characteristics</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Price</a>
+                            <a href="#price" class="menu__link">Price</a>
                         </li>
                     </ul>
                 </nav>
@@ -49,7 +49,7 @@
                         It has a powerful engine and a capacious battery, thanks to which it is able to travel up to 100 km on a single charge, which is definitely higher than most competitors.
                         And big wheels with pneumatic tires, disc brakes, a 7-speed transmission and an ergonomic seat make every ride that much more enjoyable.
                     </p>
-                    <a class="bike__link" href="#">Order</a>
+                    <a class="bike__link" href="#price">Order</a>
                 </div>
                 <div class="bike__column bike__column-slider">
                     <div class="bike-slider">
@@ -66,7 +66,7 @@
                         </li>
                         <li class="bike__list-item">
                             <span class="bike__list-num">25 km/h</span>
-                            <span class="bike__list-text">Max speed</span>
+                            <span class="bike__list-text">max speed</span>
                         </li>
                         <li class="bike__list-item">
                             <span class="bike__list-num">3 driving modes</span>
@@ -81,7 +81,7 @@
             </div>
         </div>
     </section>
-    <section class="info">
+    <section class="info" id="info">
         <div class="container">
             <div class="info__inner">
                 <img class="info__img" src="images/info-img.jpg" alt="">
@@ -146,7 +146,7 @@
             </div>
         </div>
     </section>
-    <section class="characteristisc">
+    <section class="characteristisc" id="characteristisc">
         <div class="container">
             <h4 class="characteristisc__head">
                 Characteristics
@@ -280,6 +280,85 @@
             </div>
         </div>
     </div>
+    <section class="price" id="price">
+        <div class="container">
+            <div class="price__inner">
+                <form class="form">
+                    <h4 class="form__title">
+                        order
+                    </h4>
+                    <p class="form__text">
+                        If you want to order a bike, leave your contact and our manager will call you back as soon as possible
+                    </p>
+                    <input class="form__input-name" type="text" placeholder="name">
+                    <input class="form__input-phone" type="tel" placeholder="telephone">
+                    <p class="form__input-text">
+                        choose the color you want
+                    </p>
+                    <div class="form__label-box">
+                        <label class="form__label">
+                            <input class="form__input-radio" type="radio" name="radio">
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="images/bike-gray.jpg" alt="">
+                                <div class="form__bike-price">
+                                    <span>900$</span>
+                                </div>
+                            </div>
+                            <div class="form__radio-style form__radio-style--grey"></div>
+                        </label>
+                        
+                        <label class="form__label">
+                            <input class="form__input-radio" type="radio" name="radio" checked>
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="images/bike-white.jpg" alt="">
+                                <div class="form__bike-price">
+                                    <span>800$</span>
+                                </div>
+                            </div>
+                            <div class="form__radio-style form__radio-style--white"></div>
+                        </label>
+
+                        <label class="form__label">
+                            <input class="form__input-radio" type="radio" name="radio">
+                            <div class="form__bike">
+                                <img class="form__bike-img" src="images/bike-red.jpg" alt="">
+                                <div class="form__bike-price">
+                                    <span>1000$</span>
+                                </div>
+                            </div>
+                            <div class="form__radio-style form__radio-style--red"></div>
+                        </label>
+                    </div>
+                    <button class="form__btn" type="submit">order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="#" class="footer__link">Privacy Policy</a>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#">
+                        <img class="footer__social-img" src="images/instagram.svg" alt="">
+                    </a>
+                    <a class="footer__social-link" href="#">
+                        <img class="footer__social-img" src="images/facebook.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link" href="tel:+48690053143">
+                        <img class="footer__contacts-img" src="images/phone.svg" alt="">
+                        <span>+48 690 053 143</span>
+                    </a>
+                    <a class="footer__contacts-link" href="mailto:elektrobikepl@gmail.com">
+                        <img class="footer__contacts-img" src="images/mail.svg" alt="">
+                        <span>elektrobikepl@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
